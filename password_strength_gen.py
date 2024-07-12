@@ -4,15 +4,7 @@ import random
 import string
 import re
 from zxcvbn import zxcvbn
-print(
-'''
-        ()-()
-      .-(___)-.
-       _<   >_
-       \/   \/
-- credts: ASCII ART
 
-''')
 def password_strength_cracktime(password):
     result = zxcvbn(password)
     score = result['score']
