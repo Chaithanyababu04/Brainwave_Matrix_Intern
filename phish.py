@@ -5,16 +5,7 @@ import pprint
 from base64 import urlsafe_b64encode
 import argparse
 import requests
-print(''' o
-o      ______/~/~/~/__           /((
-  o  // __            ====__    /_((
- o  //  @))       ))))      ===/__((
-    ))           )))))))        __((
-    \\     \)     ))))    __===\ _((
-     \\_______________====      \_((
-                                 \((
-# CREDITS: ASCII_ART ARCHIEVE
-''')
+
 # Parsing command line options
 parser = argparse.ArgumentParser(description="Check URL using VirusTotal API")
 parser.add_argument("-u", "--url", required=True, help="Enter the URL of the domain to check using VirusTotal module")
