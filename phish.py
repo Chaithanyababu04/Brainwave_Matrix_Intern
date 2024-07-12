@@ -13,7 +13,7 @@ args = parser.parse_args()
 url = args.url
 
 # Interacting with VirusTotal API
-api_key = "1579c2e194f3e92a6670aaf26dd446bd7e2559d832d59057b233a72d09ad5b4b"  # Replace with your actual API key
+api_key = "APIKEY"  # Replace with your actual API key
 with virustotal_python.Virustotal(api_key) as vtotal:
     try:
         # Submitting URL for analysis
